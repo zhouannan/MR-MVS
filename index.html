@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="MR-MVS: Monocular Guidance with Multi-view Geometry Optimization for Multi-view Stereo">
+  <meta name="description"
+    content="MR-MVS: Monocular Guidance with Multi-view Geometry Optimization for Multi-view Stereo">
   <meta name="keywords" content="MVS, Multi-view Stereo, Monocular Depth, Geometry Optimization">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MR-MVS: Monocular Guidance with Multi-view Geometry Optimization</title>
@@ -38,14 +40,16 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">MR-MVS: Monocular Guidance with Multi-view Geometry Optimization for Multi-view Stereo</h1>
+            <h1 class="title is-1 publication-title">MR-MVS: Monocular Guidance with Multi-view Geometry Optimization
+              for Multi-view Stereo</h1>
             <div class="is-size-5 publication-authors">
               <span class="author-block">Annan Zhou<sup>1</sup>,</span>
               <span class="author-block">Li Li<sup>1</sup>,</span>
               <span class="author-block">Jian Yao<sup>1</sup></span>
             </div>
             <div class="is-size-6 publication-authors">
-              <span class="author-block"><sup>1</sup>School of Remote Sensing and Information Engineering, Wuhan University</span>
+              <span class="author-block"><sup>1</sup>School of Remote Sensing and Information Engineering, Wuhan
+                University</span>
             </div>
 
           </div>
@@ -61,11 +65,18 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              We propose MR-MVS, a multi-view stereo framework that combines monocular priors with explicit multi-view geometry optimization.
-              MR-MVS leverages monocular depth cues to provide robust initialization and structural guidance in weak-texture or low-overlap regions,
-              while preserving geometric consistency through iterative multi-view refinement. The proposed strategy improves reconstruction completeness
-              and detail fidelity across challenging indoor and outdoor scenes. Extensive experiments demonstrate competitive performance against
-              strong MVS baselines in both qualitative and quantitative evaluations.
+              Accurate depth estimation is fundamental to 3D reconstruction, with multi-view stereo (MVS) being one of
+              the most widely adopted paradigms.
+              However, both traditional and learning-based MVS methods struggle in weakly textured or specular regions,
+              where photometric matching becomes unreliable.
+              In contrast, monocular depth models exhibit strong generalization and robust relative depth prediction,
+              but lack metric scale and multi-view geometric consistency.In this work, we propose a hybrid framework
+              that integrates monocular depth priors into a learning-based MVS pipeline and refines depth estimates
+              through multi-view geometric optimization.
+              By jointly leveraging monocular priors, multi-view feature matching, and geometry-aware refinement, our
+              method produces more reliable depth estimates in challenging real-world scenarios.
+              Extensive experiments demonstrate that the proposed approach consistently improves reconstruction accuracy
+              and completeness, particularly in weakly textured and highly reflective regions.
             </p>
           </div>
         </div>
@@ -305,7 +316,8 @@
         <div class="column is-8">
           <div class="content">
             <p>
-              Website template based on the open-sourced <a href="https://nerfies.github.io/">Nerfies</a> project page style.
+              Website template based on the open-sourced <a href="https://nerfies.github.io/">Nerfies</a> project page
+              style.
             </p>
           </div>
         </div>
@@ -313,4 +325,5 @@
     </div>
   </footer>
 </body>
+
 </html>
