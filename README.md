@@ -1,5 +1,2 @@
-# MR-MVS
-
-Project homepage: https://zhouannan.github.io/MR-MVS/
-
-The full website source and data are published on the `gh-pages` branch.
+# MR-MVS: Monocular Guidance with Multi-view Geometry Optimization for Multi-view Stereo
+### [Project Page](https://zhouannan.github.io/MR-MVS/)
