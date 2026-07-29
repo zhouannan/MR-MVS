@@ -237,3 +237,14 @@ python -m unittest discover -s tests -v
 
 The tests cover probability normalization, AlphaNet gradients, checkpoint
 key handling, per-source reprojection gating, and planar-depth stability.
+
+## Acknowledgements
+
+MR-MVS is built on
+[MVSFormer++](https://github.com/maybeLx/MVSFormerPlusPlus) and uses components
+from [DINOv2](https://github.com/facebookresearch/dinov2). We thank the
+authors for releasing their code and models.
+
+## License
+
+This project is released under the Apache License 2.0. See [LICENSE](LICENSE).
