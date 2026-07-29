@@ -1,0 +1,12 @@
+torch>=2.1
+torchvision>=0.16
+numpy>=1.23
+opencv-python>=4.7
+Pillow>=9.3
+einops>=0.6
+easydict>=1.10
+omegaconf>=2.1
+PyYAML>=6.0
+plyfile>=0.7
+tensorboardX>=2.5
+tqdm>=4.59
